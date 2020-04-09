@@ -16,8 +16,8 @@
       };
 
       toBuy.message = function () {
-  			return (toBuy.items == "");
-  		};
+  	return (toBuy.items == "");
+      };
     }
 
   AlreadyBoughtController.$inject = ['ShoppingListCheckOffService'];
